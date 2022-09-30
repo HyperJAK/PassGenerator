@@ -121,7 +121,7 @@ namespace PassGenerator
             }
             else
             {
-                for(int i = 0; i < 4; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     //Marks the unmarked items
                     changeColor(Color.Red);

@@ -30,7 +30,8 @@ namespace PassGenerator
                 int randomStart = rnd.Next(4);
                 switch (randomStart)
                 {
-                    case 0: { //lowerCase start
+                    case 0:
+                        { //lowerCase start
                             if (lowerCase)
                             {
                                 char low = (char)(rnd.Next(26) + 'a'); //get random letter from a to z
@@ -38,7 +39,8 @@ namespace PassGenerator
                             }
                         }
                         break;
-                    case 1: { //upperCase start
+                    case 1:
+                        { //upperCase start
                             if (upperCase)
                             {
                                 char up = ((char)(rnd.Next(26) + 'a')); // get random letter from A to Z
@@ -47,7 +49,8 @@ namespace PassGenerator
                             }
                         }
                         break;
-                    case 2: { //number start
+                    case 2:
+                        { //number start
                             if (numbers)
                             {
                                 int rand = (rnd.Next(10));
@@ -55,7 +58,8 @@ namespace PassGenerator
                             }
                         }
                         break;
-                    case 3: { //symbol start
+                    case 3:
+                        { //symbol start
                             if (symbols)
                             {
                                 char sym = symbls.ElementAt(rnd.Next(symbls.Length));// get random letter from A to Z
