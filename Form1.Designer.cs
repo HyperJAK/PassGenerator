@@ -49,8 +49,9 @@
             this.label1.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lavender;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(419, 37);
+            this.label1.Size = new System.Drawing.Size(559, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Password Generator";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -59,10 +60,11 @@
             // 
             this.passLengthText.BackColor = System.Drawing.Color.Transparent;
             this.passLengthText.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passLengthText.ForeColor = System.Drawing.Color.Blue;
-            this.passLengthText.Location = new System.Drawing.Point(0, 49);
+            this.passLengthText.ForeColor = System.Drawing.Color.AliceBlue;
+            this.passLengthText.Location = new System.Drawing.Point(0, 60);
+            this.passLengthText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.passLengthText.Name = "passLengthText";
-            this.passLengthText.Size = new System.Drawing.Size(419, 37);
+            this.passLengthText.Size = new System.Drawing.Size(559, 46);
             this.passLengthText.TabIndex = 2;
             this.passLengthText.Text = "Current Password Length: 4";
             this.passLengthText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -70,13 +72,14 @@
             // 
             // sliderPassLength
             // 
-            this.sliderPassLength.BackColor = System.Drawing.Color.Blue;
+            this.sliderPassLength.BackColor = System.Drawing.SystemColors.MenuText;
             this.sliderPassLength.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sliderPassLength.Location = new System.Drawing.Point(96, 89);
+            this.sliderPassLength.Location = new System.Drawing.Point(128, 110);
+            this.sliderPassLength.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sliderPassLength.Maximum = 40;
             this.sliderPassLength.Minimum = 4;
             this.sliderPassLength.Name = "sliderPassLength";
-            this.sliderPassLength.Size = new System.Drawing.Size(231, 45);
+            this.sliderPassLength.Size = new System.Drawing.Size(308, 56);
             this.sliderPassLength.TabIndex = 3;
             this.sliderPassLength.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.sliderPassLength.Value = 4;
@@ -88,9 +91,10 @@
             this.lowercaseLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lowercaseLabel.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowercaseLabel.ForeColor = System.Drawing.Color.Lavender;
-            this.lowercaseLabel.Location = new System.Drawing.Point(107, 137);
+            this.lowercaseLabel.Location = new System.Drawing.Point(143, 169);
+            this.lowercaseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lowercaseLabel.Name = "lowercaseLabel";
-            this.lowercaseLabel.Size = new System.Drawing.Size(210, 37);
+            this.lowercaseLabel.Size = new System.Drawing.Size(280, 46);
             this.lowercaseLabel.TabIndex = 4;
             this.lowercaseLabel.Text = "LowerCase";
             this.lowercaseLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,9 +106,10 @@
             this.uppercaseLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.uppercaseLabel.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uppercaseLabel.ForeColor = System.Drawing.Color.Lavender;
-            this.uppercaseLabel.Location = new System.Drawing.Point(107, 174);
+            this.uppercaseLabel.Location = new System.Drawing.Point(143, 214);
+            this.uppercaseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.uppercaseLabel.Name = "uppercaseLabel";
-            this.uppercaseLabel.Size = new System.Drawing.Size(210, 37);
+            this.uppercaseLabel.Size = new System.Drawing.Size(280, 46);
             this.uppercaseLabel.TabIndex = 5;
             this.uppercaseLabel.Text = "UpperCase";
             this.uppercaseLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -116,9 +121,10 @@
             this.numbersLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.numbersLabel.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numbersLabel.ForeColor = System.Drawing.Color.Lavender;
-            this.numbersLabel.Location = new System.Drawing.Point(107, 211);
+            this.numbersLabel.Location = new System.Drawing.Point(143, 260);
+            this.numbersLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.numbersLabel.Name = "numbersLabel";
-            this.numbersLabel.Size = new System.Drawing.Size(210, 37);
+            this.numbersLabel.Size = new System.Drawing.Size(280, 46);
             this.numbersLabel.TabIndex = 6;
             this.numbersLabel.Text = "Numbers";
             this.numbersLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -130,9 +136,10 @@
             this.symbolsLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.symbolsLabel.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.symbolsLabel.ForeColor = System.Drawing.Color.Lavender;
-            this.symbolsLabel.Location = new System.Drawing.Point(107, 248);
+            this.symbolsLabel.Location = new System.Drawing.Point(143, 305);
+            this.symbolsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.symbolsLabel.Name = "symbolsLabel";
-            this.symbolsLabel.Size = new System.Drawing.Size(210, 37);
+            this.symbolsLabel.Size = new System.Drawing.Size(280, 46);
             this.symbolsLabel.TabIndex = 7;
             this.symbolsLabel.Text = "Symbols";
             this.symbolsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,9 +150,10 @@
             this.generateButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.generateButton.Font = new System.Drawing.Font("Consolas", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generateButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.generateButton.Location = new System.Drawing.Point(154, 297);
+            this.generateButton.Location = new System.Drawing.Point(205, 366);
+            this.generateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(118, 39);
+            this.generateButton.Size = new System.Drawing.Size(157, 48);
             this.generateButton.TabIndex = 8;
             this.generateButton.Text = "Generate";
             this.generateButton.UseVisualStyleBackColor = false;
@@ -153,10 +161,11 @@
             // 
             // textBoxResult
             // 
-            this.textBoxResult.Location = new System.Drawing.Point(96, 342);
+            this.textBoxResult.Location = new System.Drawing.Point(128, 421);
+            this.textBoxResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxResult.Multiline = true;
             this.textBoxResult.Name = "textBoxResult";
-            this.textBoxResult.Size = new System.Drawing.Size(231, 92);
+            this.textBoxResult.Size = new System.Drawing.Size(307, 112);
             this.textBoxResult.TabIndex = 9;
             this.textBoxResult.TextChanged += new System.EventHandler(this.textBoxResult_TextChanged);
             // 
@@ -165,9 +174,10 @@
             this.copyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.copyButton.Font = new System.Drawing.Font("Consolas", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.copyButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.copyButton.Location = new System.Drawing.Point(154, 440);
+            this.copyButton.Location = new System.Drawing.Point(205, 542);
+            this.copyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.copyButton.Name = "copyButton";
-            this.copyButton.Size = new System.Drawing.Size(118, 39);
+            this.copyButton.Size = new System.Drawing.Size(157, 48);
             this.copyButton.TabIndex = 10;
             this.copyButton.Text = "Copy";
             this.copyButton.UseVisualStyleBackColor = false;
@@ -175,10 +185,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PassGenerator.Properties.Resources.Gradient_background;
-            this.ClientSize = new System.Drawing.Size(419, 482);
+            this.ClientSize = new System.Drawing.Size(559, 593);
             this.Controls.Add(this.copyButton);
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.generateButton);
@@ -189,8 +199,10 @@
             this.Controls.Add(this.sliderPassLength);
             this.Controls.Add(this.passLengthText);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Pass Gen";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.sliderPassLength)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
